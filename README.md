@@ -24,4 +24,4 @@ Query exp:
 
 - June precipitation: results = session.query(Measurement.date, Measurement.prcp).filter(func.strftime("%m" ,Measurement.date)=="06").all()
 
-- Dec precipitation: results = session.query(Measurement.date, Measurement.prcp).filter(func.strftime("%m" ,Measurement.date)=="06").all()
+- Dec precipitation: results = session.query(Measurement.date, Measurement.prcp).filter(func.strftime("%m" ,Measurement.date)=="12").all()
